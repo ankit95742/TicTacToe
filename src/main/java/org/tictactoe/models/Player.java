@@ -5,6 +5,12 @@ public class Player {
     private String name;
     private PlayerType playerType;
 
+    public Player(Symbol symbol, String name, PlayerType playerType) {
+        this.symbol = symbol;
+        this.name = name;
+        this.playerType = playerType;
+    }
+
     public Symbol getSymbol() {
         return symbol;
     }
